@@ -1,6 +1,6 @@
 """
 Bruteforce string searching algorithm implemented in python.
-Following code give the index from it starts.
+Following code give the index if substring is present in the target string.
 
 Has a time complexity of O(mxn).
 m = length of target string
@@ -23,10 +23,10 @@ for i in range(m - p + 1):
         j += 1
 
     if k == p:
+        print(i)
         break
 
 
-print(i)
 
 """
 # OUTPUT
